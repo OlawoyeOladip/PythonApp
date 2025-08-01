@@ -36,4 +36,4 @@ jobs:
 
       # Step 4: Run tests
       - name: Run tests
-        run: pytest test/ --maxfail=1 --disable-warnings -q
+        run: pytest tests/ --maxfail=1 --disable-warnings -q
